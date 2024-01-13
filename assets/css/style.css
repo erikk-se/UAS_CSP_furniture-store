@@ -696,7 +696,7 @@ section {
 .services .icon-box::before {
   content: "";
   position: absolute;
-  background: #e1f0fa;
+  background: #ccbaac;
   right: -60px;
   top: -40px;
   width: 100px;
@@ -1352,7 +1352,7 @@ section {
 }
 
 .faq .faq-item i {
-  color: #8bc4ea;
+  color: #9d8461;
   font-size: 24px;
   float: left;
   line-height: 0;
