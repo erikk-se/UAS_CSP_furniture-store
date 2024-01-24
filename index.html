@@ -36,16 +36,16 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
-
-      <div class="logo d-flex align-items-center btnNav" style="gap: 7px;">
+      <!-- <a href="index.html" class="d-flex align-items-center btnNav d-none d-md-flex" style="gap: 7px; color: #444444;font-weight: 600;">
         <i class='bx bx-phone'></i>
-        <h1 style="font-size: x-large;font-weight: 600;">+62 898765434</h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
+        <span>+62 898765434</span>
+      </a> -->
 
+      <!-- <a href="index.html" class="d-flex align-items-center btnNav h1Class" style="gap: 7px; color: #444444;font-weight: 600;">
+        <h1>Furnicraft</h1>
+      </a> -->
       <nav id="navbar" class="navbar">
-        <ul>
+        <ul class="d-none d-lg-flex">
           <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
           <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
           <li><a class="nav-link scrollto" href="#counts">Penghargaan</a></li>
@@ -55,9 +55,14 @@
           <li><a class="nav-link scrollto" href="#contact">Hubungi</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      </nav>
+      <!-- .navbar -->
 
       <div class="d-flex" style="gap: 20px;">
+        <!-- <div style="position: relative;">
+          <i class='bx bx-search-alt btnNav'></i>
+          <span style="border-radius: 50%;width: 15px;height: 15px;background: #9d8461; position: absolute;color: white;right: 0; top: 0;font-size: x-small;padding: 2px;">3</span>
+        </div> -->
         <i class='bx bx-search-alt btnNav'></i>
         <i class='bx bx-bookmark btnNav'></i>
         <i class='bx bx-shopping-bag btnNav'></i>
@@ -84,9 +89,48 @@
       </div>
     </div>
 
-  </section><!-- End Hero -->
+  </section>
+  <!-- End Hero -->
 
   <main id="main">
+
+    <section id="hero">
+      <div class="">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div style="position: relative;">
+                <div style="display: flex;flex-direction: column; position: absolute;top: 10rem; left: 10rem;">
+                  <h1 data-aos="fade-up" class="aos-init aos-animate">FURNICRAFT</h1>
+                  <h2 data-aos="fade-up" data-aos-delay="400" class="aos-init aos-animate">Temukan Kenyamanan dan
+                    Keindahan <br> dalam Setiap Ruangan</h2>
+                </div>
+                <img src="/assets/img/global/home-default-1.webp" class="d-block w-100" alt="...">
+              </div>
+              <!-- <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div> -->
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
       <div class="container">
@@ -677,7 +721,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-almari">
             <div class="portfolio-wrap">
               <img src="assets/img/product/almari-1.jpeg" class="img-fluid" alt="">
@@ -694,7 +738,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-ks">
             <div class="portfolio-wrap">
               <img src="assets/img/product/ks-4.jpeg" class="img-fluid" alt="">
@@ -728,7 +772,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-almari">
             <div class="portfolio-wrap">
               <img src="assets/img/product/almari-3.jpeg" class="img-fluid" alt="">
@@ -1033,10 +1077,12 @@
         </div>
         <div class="col-lg-6">
           <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
-            <a href="#intro" class="scrollto">Home</a>
-            <a href="#about" class="scrollto">About</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Use</a>
+            <a href="#intro" class="scrollto">Beranda</a>
+            <a href="#about" class="scrollto">Tentang</a>
+            <a href="#intro" class="scrollto">Beranda</a>
+            <a href="#about" class="scrollto">Tentang</a>
+            <a href="#intro" class="scrollto">Beranda</a>
+            <a href="#about" class="scrollto">Tentang</a>
           </nav>
         </div>
       </div>
